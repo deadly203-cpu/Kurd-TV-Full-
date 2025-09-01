@@ -1,4 +1,424 @@
 {
   "version": 1,
-  "channels": []
+  "channels": [
+    {
+      "id": "rudaw",
+      "name": "Rûdaw",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rudaw_Logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCAUHoE2Ykw0sguyi5AjhrjQ", "priority": 1 },
+        { "type": "HLS", "url": "https://rudawlive.net/rudaw.m3u8", "priority": 2 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/rudaw.html", "priority": 3 }
+      ]
+    },
+    {
+      "id": "kurdistan24",
+      "name": "Kurdistan 24",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Kurdistan_24_Logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCzWRgVf3VBr3uIuV5iho7yA", "priority": 1 },
+        { "type": "HLS", "url": "https://kurdistan24net.cdn.mangomolo.com/k24/smil:k24.stream.smil/playlist.m3u8", "priority": 2 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/kurdistan24.html", "priority": 3 }
+      ]
+    },
+    {
+      "id": "nrt",
+      "name": "NRT",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c6/NRT_Logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCkWJ3sG7M57VheLzQ3wa9hQ", "priority": 1 },
+        { "type": "HLS", "url": "https://nrttv.net/nrtlive.m3u8", "priority": 2 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/nrt.html", "priority": 3 }
+      ]
+    },
+    {
+      "id": "zaroktv",
+      "name": "Zarok TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/Zarok_TV_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UC6LfUGd0MYgzLmNwL0pFi6g", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/zaroktv.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "sterktv",
+      "name": "Stêrk TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/17/SterkTV_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCg7s0o0Q3YOEoTP0TOZCDJw", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/sterktv.html", "priority": 2 }
+      ]
+    }
+        ,
+    {
+      "id": "ronahitv",
+      "name": "Ronahî TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ronahi_TV_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCQ7yR6t92pB3pD4AvnV8QAg", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/ronahi.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "medyahaber",
+      "name": "Medya Haber TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Medya_Haber_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UC47N9fdkWXwHblhPHTBZjJg", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/medyahaber.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "kurdmax",
+      "name": "KurdMax",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kurdmax_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCZJ7z7xGlgrkY9LMMjQ6p1w", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/kurdmax.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "kurdistantv",
+      "name": "Kurdistan TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Kurdistan_TV_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCvufXDTFzM3-PB0d9OjJjKw", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/kurdistantv.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "waarmedia",
+      "name": "Waar Media",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Waar_Media_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCGQ3Q9uMCaZmYJGf2j8zA2g", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/waarmedia.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "spedatv",
+      "name": "Speda TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/23/Speda_TV_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCp2g7bQH0i8MZwrMZ0aQabA", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/spedatv.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "kurdsat",
+      "name": "Kurdsat",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Kurdsat_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UC9RrNJrFZZ1y5KnzGWx_wzw", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/kurdsat.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "kurdsatnews",
+      "name": "Kurdsat News",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Kurdsat_News_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCfNUDw6Yp9WwkbTJ2bxZCRg", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/kurdsatnews.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "knn",
+      "name": "KNN",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/dc/KNN_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCyqJpmLw7Fv2k7Gz1G6jGzA", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/knn.html", "priority": 2 }
+      ]
+    }
+        ,
+    {
+      "id": "hevaltvtv",
+      "name": "Heval TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/40/Heval_TV_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UC7oXviPnUxw0zVtTk7CQ_mA", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/hevaltv.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "cira",
+      "name": "Cira TV",
+      "logo": "https://karwan.tv/assets/images/channels/cira.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UC5doQmxr0dV0mJ9A3wczR7A", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/cira.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "nettv",
+      "name": "Net TV",
+      "logo": "https://karwan.tv/assets/images/channels/nettv.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UC3QK-6jqZBk5Y9G7gXnVQ0g", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/nettv.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "hayattv",
+      "name": "Hayat TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Hayat_TV_logo.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCuztNS4F5JZP0cM6ZfO5ZJQ", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/hayattv.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "newaytv",
+      "name": "Neway TV",
+      "logo": "https://karwan.tv/assets/images/channels/newaytv.png",
+      "sources": [
+        { "type": "YOUTUBE", "channelId": "UCzcv8LezzYgby4dmqA0k5hA", "priority": 1 },
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/newaytv.html", "priority": 2 }
+      ]
+    },
+    {
+      "id": "araratv",
+      "name": "Arara TV",
+      "logo": "https://karwan.tv/assets/images/channels/arara.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/arara.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "rojava",
+      "name": "Rojava TV",
+      "logo": "https://karwan.tv/assets/images/channels/rojava.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/rojava.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "vaxtv",
+      "name": "Vax TV",
+      "logo": "https://karwan.tv/assets/images/channels/vax.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/vaxtv.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "baztv",
+      "name": "Baz TV",
+      "logo": "https://karwan.tv/assets/images/channels/baz.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/baz.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "sirwan",
+      "name": "Sirwan TV",
+      "logo": "https://karwan.tv/assets/images/channels/sirwan.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/sirwan.html", "priority": 1 }
+      ]
+    }
+        ,
+    {
+      "id": "komala",
+      "name": "Komala TV",
+      "logo": "https://karwan.tv/assets/images/channels/komala.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/komala.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "payam",
+      "name": "Payam TV",
+      "logo": "https://karwan.tv/assets/images/channels/payam.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/payam.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "newroz",
+      "name": "Newroz TV",
+      "logo": "https://karwan.tv/assets/images/channels/newroz.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/newroz.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "rega",
+      "name": "Rega TV",
+      "logo": "https://karwan.tv/assets/images/channels/rega.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/rega.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "jamaw",
+      "name": "JAMAW TV",
+      "logo": "https://karwan.tv/assets/images/channels/jamaw.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/jamaw.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "peyam",
+      "name": "Peyam TV",
+      "logo": "https://karwan.tv/assets/images/channels/peyam.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/peyam.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "karwan",
+      "name": "Karwan TV",
+      "logo": "https://karwan.tv/assets/images/channels/karwan.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/karwan.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "ava",
+      "name": "AVA TV",
+      "logo": "https://karwan.tv/assets/images/channels/ava.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/ava.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "dangi",
+      "name": "Dangi TV",
+      "logo": "https://karwan.tv/assets/images/channels/dangi.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/dangi.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "gali",
+      "name": "Gali Kurdistan",
+      "logo": "https://karwan.tv/assets/images/channels/gali.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/gali.html", "priority": 1 }
+      ]
+    }
+        ,
+    {
+      "id": "zagros",
+      "name": "Zagros TV",
+      "logo": "https://karwan.tv/assets/images/channels/zagros.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/zagros.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes TV",
+      "logo": "https://karwan.tv/assets/images/channels/hermes.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/hermes.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "tribun",
+      "name": "Tribun TV",
+      "logo": "https://karwan.tv/assets/images/channels/tribun.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/tribun.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "sipan",
+      "name": "Sipan TV",
+      "logo": "https://karwan.tv/assets/images/channels/sipan.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/sipan.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "ronak",
+      "name": "Ronak TV",
+      "logo": "https://karwan.tv/assets/images/channels/ronak.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/ronak.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "roj",
+      "name": "Roj TV",
+      "logo": "https://karwan.tv/assets/images/channels/roj.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/roj.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "gunaz",
+      "name": "Gunaz TV",
+      "logo": "https://karwan.tv/assets/images/channels/gunaz.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/gunaz.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "arya",
+      "name": "Arya TV",
+      "logo": "https://karwan.tv/assets/images/channels/arya.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/arya.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "azadi",
+      "name": "Azadi TV",
+      "logo": "https://karwan.tv/assets/images/channels/azadi.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/azadi.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "suryoyotv",
+      "name": "Suryoyo TV",
+      "logo": "https://karwan.tv/assets/images/channels/suryoyo.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/suryoyo.html", "priority": 1 }
+      ]
+    }
+        ,
+    {
+      "id": "rojhelat",
+      "name": "Rojhelat TV",
+      "logo": "https://karwan.tv/assets/images/channels/rojhelat.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/rojhelat.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "xelk",
+      "name": "Xelk TV",
+      "logo": "https://karwan.tv/assets/images/channels/xelk.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/xelk.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "yektv",
+      "name": "Yek TV",
+      "logo": "https://karwan.tv/assets/images/channels/yektv.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/yektv.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "kurdistanmusic",
+      "name": "Kurdistan Music TV",
+      "logo": "https://karwan.tv/assets/images/channels/kurdistanmusic.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/kurdistanmusic.html", "priority": 1 }
+      ]
+    },
+    {
+      "id": "jin",
+      "name": "Jin TV",
+      "logo": "https://karwan.tv/assets/images/channels/jin.png",
+      "sources": [
+        { "type": "KARWAN", "url": "https://karwan.tv/channels/jin.html", "priority": 1 }
+      ]
+    }
+  ]
 }
